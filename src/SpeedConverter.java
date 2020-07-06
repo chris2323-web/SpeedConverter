@@ -27,4 +27,11 @@ public class SpeedConverter {
         return Math.round(kilometersPerHour / 1.609);
     }
 
+    private int limit;
+    private int speed;
+
+    public SpeedConverter(int limit, int speed) {
+        this.limit = limit;
+        this.speed = speed;
+    }
 }
